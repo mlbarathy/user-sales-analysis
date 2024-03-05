@@ -82,7 +82,9 @@ The code base framework contains below artifacts,
   - saleDate    : Sample Sales Data Provided
   - schemaJson  : Configuration file for providing schema, transformation query and config details
   - spark_emr   : Scala Spark Code.
-    - Has 2 Items 
+    - Has 2 Items :
+      - Controller - Main Class for Execution
+      - Utils - Contains Reusable Functions like , table creation,data insertion,transformation, etc 
                    
     
 
