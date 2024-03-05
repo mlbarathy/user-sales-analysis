@@ -11,10 +11,8 @@ combines sales data with data from external sources (api end points). Data trans
   - [Airflow DAG Deployment](#airflow-dag-deployment)
 - [Code Base](#code-base)
 - [Transformations And Aggregations](#transformation-and-aggregations)
-  - [2. Temporary Table Creation](#2-temporary-table-creation)
-  - [3. Queries](#3-queries)
-  - [4. Caching](#4-caching)
-  - [4. Visualization](#4-caching)
+- [visualizations](#visualizations)
+  
  
 <br>
 <br>
@@ -103,6 +101,16 @@ The following transformations & aggregations are perfornmed ,
 
 <br>
 <br>
+
+## Visualizations
+
+The Analysis and Trend of the user sales are captured through NoteBook visualizations.
+<br>
+### Total Sales Per Customer:
+<img width="1557" alt="image" src="https://github.com/mlbarathy/user-sales-analysis/assets/43374951/2047a0ad-2f01-42ab-897a-8265356c8e1e">
+
+
+
 
 
 
