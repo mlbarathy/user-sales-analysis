@@ -81,10 +81,11 @@ Once the DAG is deployed sucessfully , create a Variable (USER_SALES_ANALYSIS_SP
 
 The code base framework contains below artifacts,
 
-  - airflowDag  : Python File for DAG deployment
-  - saleDate    : Sample Sales Data Provided
-  - schemaJson  : Configuration file for providing schema, transformation query and config details
-  - spark_emr   : Scala Spark Code.
+  - airflowDag       : Python File for DAG deployment
+  - jenkinsPipeline  : Jenkins Pipeline Script
+  - saleDate         : Sample Sales Data Provided
+  - schemaJson       : Configuration file for providing schema, transformation query and config details
+  - spark_emr        : Scala Spark Code.
     - Has 2 Items :
       - Controller - Main Class for Execution
       - Utils - Contains Reusable Functions like , table creation,data insertion,transformation, etc 
