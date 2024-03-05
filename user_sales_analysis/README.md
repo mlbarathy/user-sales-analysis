@@ -43,10 +43,10 @@ combines sales data with data from external sources (api end points). Data trans
   - Checkout Source Code
   - Maven Build
   - Deploy Scripts to EMR Airflow
-  - Airflow for Scheduling.
   - Deploy Scripts to S3.
 
-<img width="756" alt="image" src="https://github.com/mlbarathy/user-sales-analysis/assets/43374951/1bcfc754-c53d-40b7-a105-9dd198d67d67">
+<img width="615" alt="image" src="https://github.com/mlbarathy/user-sales-analysis/assets/43374951/00459af1-8e4c-4e81-a5b9-a0393ca0ae98">
+
 
 
     
