@@ -20,7 +20,8 @@ combines sales data with data from external sources (api end points). Data trans
  
 ## Project Overview
 
-  The aim for this project is to analyze and derive insights into customer behaviour and sales performance using Spark & Visualization through transformations and aggregations using SPark APIs and Spark SQL and Notebook for visualization
+  The aim for this project is to analyze and derive insights into customer behaviour and sales performance using Spark & Visualization through transformations and aggregations using SPark APIs and Spark SQL and Notebook for visualization . Below architecture explain the desgin and entities used.
+
 <br>
 <img width="840" alt="image" src="https://github.com/mlbarathy/user-sales-analysis/assets/43374951/f3dacfd7-0f77-45df-8f2d-3582c674e38a">
 
