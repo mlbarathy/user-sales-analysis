@@ -1,0 +1,67 @@
+@Library('jenkins-job') _
+pipeline {
+    }
+    options {
+        timestamps ()
+        ansiColor('xterm')
+    }
+    environment {
+                AWS_REGION = 'eu-west-1'
+        }
+    stages {
+         stage('Initialization') {
+                     steps {
+                         script{
+                              ## Script For Initialization
+                         }
+               }
+         }
+        stage('Checkout Source Code') {
+                    steps {
+                        script {
+                            gitutils.checkoutSource()
+
+                        }
+                     }
+                }
+        stage('Maven Build') {
+            when { expression { params.skip_mvn_build != true } }
+            steps {
+                    script {
+                        buildutils.buildDynamicSparkEMR()
+                        }
+                }
+        }
+        stage('Deploy Scripts to EMR Airflow') {
+            steps {
+                withCredentials([sshUserPrivateKey(credentialsId: "${params.environmentName}-key-pem",
+                keyFileVariable: 'MY_SSH_KEY')]) {
+                    script {
+                        container('terraform') {
+                            ## All the keys and certificates must be specified
+                            sh "ssh -i $MY_SSH_KEY ec2-user@${params.environmentName}-emr-airflow sudo cp /data/workflows/${params.repo_name}/airflow/dags/* /data/airflow/dags/"
+                            sh "ssh -i $MY_SSH_KEY ec2-user@${params.environmentName}-emr-airflow sudo chmod -R +rx /data/airflow/dags/"
+                            }
+                        }
+                }
+            }
+        }
+        stage('Deploy Scripts to S3') {
+            steps {
+                    script {
+                        container('aws-cli') {
+                            sh "aws s3 rm s3://${params.environmentName}-emr-code/data/workflows/${params.repo_name} --recursive --profile edl-${params.environmentName}"
+                            sh "aws s3 cp ${WORKSPACE}/ s3://${params.environmentName}-emr-code/data/workflows/${params.repo_name}/ --recursive --profile edl-${params.environmentName}"
+                        }
+                    }
+                }
+        }
+
+    }
+post {
+        always {
+            cleanWs()
+            slackNotifications()
+        }
+    }
+}
