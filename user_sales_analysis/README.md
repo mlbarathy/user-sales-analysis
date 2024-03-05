@@ -48,6 +48,7 @@ combines sales data with data from external sources (api end points). Data trans
 <img width="615" alt="image" src="https://github.com/mlbarathy/user-sales-analysis/assets/43374951/00459af1-8e4c-4e81-a5b9-a0393ca0ae98">
 
 
+
 ### Airflow DAG Deployment
 
 Part of Jenkins pipeline , airflow dag will deployed and will be ready for trigeering.The DAG script is under airfloeDAG from parent directory
