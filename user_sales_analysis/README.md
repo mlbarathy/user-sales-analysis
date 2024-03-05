@@ -54,6 +54,11 @@ Part of Jenkins pipeline , airflow dag will deployed and will be ready for trige
 
 <img width="1574" alt="image" src="https://github.com/mlbarathy/user-sales-analysis/assets/43374951/d698d75a-927e-4e5d-b918-4bd20ab9318e">
 
+Once the DAG is deployed sucessfully , create a Variable (USER_SALES_ANALYSIS_SPARK_CONFIG) in Airlfow with below values and can be modified
+
+<img width="1061" alt="image" src="https://github.com/mlbarathy/user-sales-analysis/assets/43374951/4ed98f1b-8ac8-408e-b6b5-dcbabf861680">
+
+
 
 
 ## Code Base
