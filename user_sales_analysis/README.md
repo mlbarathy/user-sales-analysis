@@ -24,8 +24,7 @@ combines sales data with data from external sources (api end points). Data trans
 
   For deploying the entire pipeline , below requirements must be avaiable.
   
-  - Apache Spark installed
-  - Scala with SPark
+  - Scala (2.13 ) with Spark (3.3.1)
   - Jenkins
   - Maven
   - Airflow for Scheduling.
