@@ -8,7 +8,7 @@ combines sales data with data from external sources (api end points). Data trans
 - [Requirements](#requirements)
 - [Getting Started](#getting-started)
   - [Jenkins Pipeline](#jenkins-pipeline)
-  - [Running the Code](#running-the-code)
+  - [Airflow DAG Deployment](#airflow-dag-deployment)
 - [Usage](#usage)
   - [1. Data Loading](#1-data-loading)
   - [2. Temporary Table Creation](#2-temporary-table-creation)
@@ -46,6 +46,14 @@ combines sales data with data from external sources (api end points). Data trans
   - Deploy Scripts to S3.
 
 <img width="615" alt="image" src="https://github.com/mlbarathy/user-sales-analysis/assets/43374951/00459af1-8e4c-4e81-a5b9-a0393ca0ae98">
+
+### Airflow DAG Deployment
+
+Part of Jenkins pipeline , airflow dag will deployed and will be ready for trigeering.The DAG script is under airfloeDAG from parent directory
+
+<img width="1574" alt="image" src="https://github.com/mlbarathy/user-sales-analysis/assets/43374951/d698d75a-927e-4e5d-b918-4bd20ab9318e">
+
+
 
 
 
