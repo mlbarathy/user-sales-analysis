@@ -12,6 +12,7 @@ combines sales data with data from external sources (api end points). Data trans
 - [Code Base](#code-base)
 - [Transformations And Aggregations](#transformation-and-aggregations)
 - [Visualizations](#visualizations)
+- [Tables](#tables)
   
  
 <br>
@@ -134,6 +135,17 @@ The Analysis and Trend of the user sales are captured through NoteBook visualiza
 <img width="1524" alt="image" src="https://github.com/mlbarathy/user-sales-analysis/assets/43374951/25900d0e-7fe6-4f58-be10-c19aa34f95fc">
 <br>
 <br>
+
+## Tables
+
+Four tables created for storing the transformed data.
+
+  - DataBase  : sales
+  - Tables    : 1. salesmaster
+                - 2. usermaster 
+     
+
+
 
 
 
