@@ -56,7 +56,7 @@ Part of Jenkins pipeline , airflow dag will deployed and will be ready for trige
 <img width="1574" alt="image" src="https://github.com/mlbarathy/user-sales-analysis/assets/43374951/d698d75a-927e-4e5d-b918-4bd20ab9318e">
 
 
-## Code Base Usage
+## Code Base
 
 The code base framework contains below artifacts,
 
