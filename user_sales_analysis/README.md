@@ -5,7 +5,7 @@ combines sales data with data from external sources (api end points). Data trans
 
 ## Contents
 - [Project Overview](#project_overview)
-- [Prerequisites](#prerequisites)
+- [Requirements](#requirements)
 - [Getting Started](#getting-started)
   - [Installation](#installation)
   - [Running the Code](#running-the-code)
@@ -20,4 +20,16 @@ combines sales data with data from external sources (api end points). Data trans
 
   The aim for this project is to analyze and derive insights into customer behaviour and sales performance using Spark & Visualization through transformations and aggregations using SPark APIs and Spark SQL and Notebook for visualization
 
-  ## Prerequisites
+  ## Requirements
+
+  For deploying the entire pipeline , below requirements must be avaiable.
+  
+  - Apache Spark installed
+  - Scala with SPark
+  - Jenkins
+  - Maven
+  - Airflow for Scheduling.
+  - AWS S3 & EMR
+  - Notebook for Visualization
+
+  
