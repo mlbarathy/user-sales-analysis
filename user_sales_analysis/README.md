@@ -108,6 +108,38 @@ The Analysis and Trend of the user sales are captured through NoteBook visualiza
 <br>
 ### Total Sales Per Customer:
 <img width="1557" alt="image" src="https://github.com/mlbarathy/user-sales-analysis/assets/43374951/2047a0ad-2f01-42ab-897a-8265356c8e1e">
+<br>
+
+### Average Quantity Per Order
+<img width="1476" alt="image" src="https://github.com/mlbarathy/user-sales-analysis/assets/43374951/109f2c6d-9d2a-4b72-9a76-42a0464e2018">
+<br>
+
+### Top Selling Products - Quantity
+<img width="1533" alt="image" src="https://github.com/mlbarathy/user-sales-analysis/assets/43374951/0e23af7d-1e16-45d5-98c8-731d20f64884">
+<br>
+
+### Top Selling Products - Price
+<img width="1533" alt="image" src="https://github.com/mlbarathy/user-sales-analysis/assets/43374951/a6eff004-aba4-464d-aff8-390b6a10e823">
+<br>
+
+### Sales Trend - Monthly
+<img width="1533" alt="image" src="https://github.com/mlbarathy/user-sales-analysis/assets/43374951/17b4c4c8-4f0a-4a74-b7c0-f4d593f68dc2">
+<br>
+
+### Sales Trend - Quarterly
+<img width="1297" alt="image" src="https://github.com/mlbarathy/user-sales-analysis/assets/43374951/172aebe8-91a4-4145-a208-1407583c91d1">
+<br>
+
+### Sales Trend - Weather
+<img width="1524" alt="image" src="https://github.com/mlbarathy/user-sales-analysis/assets/43374951/25900d0e-7fe6-4f58-be10-c19aa34f95fc">
+<br>
+<br>
+
+
+
+
+
+
 
 
 
