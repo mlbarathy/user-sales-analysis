@@ -1,5 +1,5 @@
 
-# Spring Boot, MySQL, Spring Security, JWT, JPA, Rest API
+# USER SALES ANALYSIS USING SPARK SCALA
 
 Build Restful CRUD API for a blog using Spring Boot, Mysql, JPA and Hibernate.
 
