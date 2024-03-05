@@ -1,0 +1,33 @@
+{
+  "schema"                :      "id int,
+                                 name string,
+                                 phone string,
+                                 username string,
+                                 customer_id string,
+                                 email string,
+                                 website string,
+                                 city string,
+                                 street string,
+                                 zipcode string,
+                                 company_name string,
+                                 order_id int,
+                                 product_id int,
+                                 quantity int,
+                                 price double,
+                                 order_date string",
+  "dbName"                   :   "sales_db",
+  "tableNameTarget"                :   "sales_master",
+  "sql"                      :   "select cast(id as Int) as id,
+                                  name,phone, username,customer_id, email,website,
+                                  address.city as city,
+                                  address.street as street,
+                                  address.zipcode as zipcode,
+                                  company.name as company_name,
+                                  cast (order_id as int) as order_id,
+                                  cast (product_id  as int) as product_id,
+                                  cast(quantity as double) as quantity,
+                                  cast(price as double) as price,
+                                  order_date
+                                  from %s "
+  
+}
