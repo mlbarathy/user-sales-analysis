@@ -10,7 +10,7 @@ combines sales data with data from external sources (api end points). Data trans
   - [Jenkins Pipeline](#jenkins-pipeline)
   - [Airflow DAG Deployment](#airflow-dag-deployment)
 - [Code Base](#code-base)
-- [Transformation And Aggregations](#transformation-and-aggregations)
+- [Transformations And Aggregations](#transformation-and-aggregations)
   - [2. Temporary Table Creation](#2-temporary-table-creation)
   - [3. Queries](#3-queries)
   - [4. Caching](#4-caching)
@@ -66,7 +66,16 @@ The code base framework contains below artifacts,
   - schemaJson  : Configuration file for providing schema, transformation query and config details
   - spark_emr   : Scala Spark Code.
 
-## Transformation & Aggregations
+## Transformations And Aggregations.
+
+The following transformations & aggregations are perfornmed ,
+
+  - Finding the total sales amount per customer.
+  - Identifing the top-selling products or customers.
+  - Analyzing sales trends over time (e.g., monthly or quarterly sales).
+  - Analysis over weather data in to find the average sales amount per weather condition)
+  - Find the top product selling in terms of quantity and price , etc
+
 
 
 
