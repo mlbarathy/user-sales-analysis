@@ -10,7 +10,7 @@ combines sales data with data from external sources (api end points). Data trans
   - [Jenkins Pipeline](#jenkins-pipeline)
   - [Airflow DAG Deployment](#airflow-dag-deployment)
 - [Code Base](#code-base)
-  - [1. Data Loading](#1-data-loading)
+- [Transformation & Aggregations](#transformation-&-aggregations)
   - [2. Temporary Table Creation](#2-temporary-table-creation)
   - [3. Queries](#3-queries)
   - [4. Caching](#4-caching)
@@ -65,6 +65,8 @@ The code base framework contains below artifacts,
   - saleDate    : Sample Sales Data Provided
   - schemaJson  : Configuration file for providing schema, transformation query and config details
   - spark_emr   : Scala Spark Code.
+
+## Transformation & Aggregations
 
 
 
