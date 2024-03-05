@@ -22,6 +22,8 @@ combines sales data with data from external sources (api end points). Data trans
 ## Project Overview
 
   The aim for this project is to analyze and derive insights into customer behaviour and sales performance using Spark & Visualization through transformations and aggregations using SPark APIs and Spark SQL and Notebook for visualization
+<br>
+<br>  
 
 ## Requirements
 
@@ -34,8 +36,12 @@ combines sales data with data from external sources (api end points). Data trans
   - AWS S3 & EMR
   - Notebook for Visualization
   - DataBase Viewer
+
+<br>
+<br>
  
 ## Getting Started
+<br>
 
 ### Jenkins Pipeline
   
@@ -48,7 +54,8 @@ combines sales data with data from external sources (api end points). Data trans
   - Deploy Scripts to S3.
 
 <img width="615" alt="image" src="https://github.com/mlbarathy/user-sales-analysis/assets/43374951/00459af1-8e4c-4e81-a5b9-a0393ca0ae98">
-
+<br>
+<br>
 
 
 ### Airflow DAG Deployment
@@ -56,12 +63,15 @@ combines sales data with data from external sources (api end points). Data trans
 Part of Jenkins pipeline , airflow dag will deployed and will be ready for trigeering.The DAG script is under airfloeDAG from parent directory
 
 <img width="1574" alt="image" src="https://github.com/mlbarathy/user-sales-analysis/assets/43374951/d698d75a-927e-4e5d-b918-4bd20ab9318e">
+<br>
+
 
 Once the DAG is deployed sucessfully , create a Variable (USER_SALES_ANALYSIS_SPARK_CONFIG) in Airlfow with below values and can be modified
 
 <img width="1061" alt="image" src="https://github.com/mlbarathy/user-sales-analysis/assets/43374951/4ed98f1b-8ac8-408e-b6b5-dcbabf861680">
 
-
+<br>
+<br>
 
 
 
@@ -74,6 +84,9 @@ The code base framework contains below artifacts,
   - schemaJson  : Configuration file for providing schema, transformation query and config details
   - spark_emr   : Scala Spark Code.
 
+<br>
+<br>
+
 ## Transformations And Aggregations.
 
 The following transformations & aggregations are perfornmed ,
@@ -83,6 +96,9 @@ The following transformations & aggregations are perfornmed ,
   - Analyzing sales trends over time (e.g., monthly or quarterly sales).
   - Analysis over weather data in to find the average sales amount per weather condition)
   - Find the top product selling in terms of quantity and price , etc
+
+<br>
+<br>
 
 
 
