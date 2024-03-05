@@ -9,7 +9,7 @@ combines sales data with data from external sources (api end points). Data trans
 - [Getting Started](#getting-started)
   - [Jenkins Pipeline](#jenkins-pipeline)
   - [Airflow DAG Deployment](#airflow-dag-deployment)
-- [Usage](#usage)
+- [Code Base Usage](#code-base-usage)
   - [1. Data Loading](#1-data-loading)
   - [2. Temporary Table Creation](#2-temporary-table-creation)
   - [3. Queries](#3-queries)
@@ -54,6 +54,17 @@ combines sales data with data from external sources (api end points). Data trans
 Part of Jenkins pipeline , airflow dag will deployed and will be ready for trigeering.The DAG script is under airfloeDAG from parent directory
 
 <img width="1574" alt="image" src="https://github.com/mlbarathy/user-sales-analysis/assets/43374951/d698d75a-927e-4e5d-b918-4bd20ab9318e">
+
+
+## Code Base Usage
+
+The code base framework contains below artifacts,
+
+  - airflowDag  : Python File for DAG deployment
+  - saleDate    : Sample Sales Data Provided
+  - schemaJson  : Configuration file for providing schema, transformation query and config details
+  - spark_emr   : Scala Spark Code.
+
 
 
 
