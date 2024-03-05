@@ -7,7 +7,7 @@ combines sales data with data from external sources (api end points). Data trans
 - [Project Overview](#project_overview)
 - [Requirements](#requirements)
 - [Getting Started](#getting-started)
-  - [Installation](#installation)
+  - [Jenkins Pipeline](#installation)
   - [Running the Code](#running-the-code)
 - [Usage](#usage)
   - [1. Data Loading](#1-data-loading)
