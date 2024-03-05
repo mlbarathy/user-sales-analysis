@@ -141,8 +141,10 @@ The Analysis and Trend of the user sales are captured through NoteBook visualiza
 Four tables created for storing the transformed data.
 
   - DataBase  : sales
-  - Tables    : 1. salesmaster
-                - 2. usermaster 
+  - Tables    : salesmaster , usermaster , usersales, weathermaster
+
+<img width="376" alt="image" src="https://github.com/mlbarathy/user-sales-analysis/assets/43374951/e315ce1f-f18b-4a71-9110-1367ae07393a">
+
      
 
 
