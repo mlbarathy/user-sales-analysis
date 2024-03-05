@@ -9,7 +9,7 @@ combines sales data with data from external sources (api end points). Data trans
 - [Getting Started](#getting-started)
   - [Jenkins Pipeline](#jenkins-pipeline)
   - [Airflow DAG Deployment](#airflow-dag-deployment)
-- [Code Base Usage](#code-base-usage)
+- [Code Base](#code-base)
   - [1. Data Loading](#1-data-loading)
   - [2. Temporary Table Creation](#2-temporary-table-creation)
   - [3. Queries](#3-queries)
