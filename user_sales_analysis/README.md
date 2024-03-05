@@ -31,5 +31,6 @@ combines sales data with data from external sources (api end points). Data trans
   - Airflow for Scheduling.
   - AWS S3 & EMR
   - Notebook for Visualization
+  - DataBase Viewer
 
   
