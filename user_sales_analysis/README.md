@@ -32,5 +32,7 @@ combines sales data with data from external sources (api end points). Data trans
   - AWS S3 & EMR
   - Notebook for Visualization
   - DataBase Viewer
+ 
+## Getting Started
 
   
