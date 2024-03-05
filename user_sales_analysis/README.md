@@ -4,10 +4,10 @@ This project uses Spark(Scala) for building a comprehensive sales data pipeline 
 combines sales data with data from external sources (api end points). Data transformations and aggregations are performed, and store the final dataset in a database. The aim this project is to enable analysis and derive insights into customer behaviour and sales performance.
 
 ## Contents
-- [Project Overview](#project_overview)
+- [Project Overview](#project-overview)
 - [Requirements](#requirements)
 - [Getting Started](#getting-started)
-  - [Jenkins Pipeline](#installation)
+  - [Jenkins Pipeline](#jenkins-pipeline)
   - [Running the Code](#running-the-code)
 - [Usage](#usage)
   - [1. Data Loading](#1-data-loading)
@@ -16,11 +16,11 @@ combines sales data with data from external sources (api end points). Data trans
   - [4. Caching](#4-caching)
   - [4. Visualization](#4-caching)
  
-  ## Project_Overview
+## Project Overview
 
   The aim for this project is to analyze and derive insights into customer behaviour and sales performance using Spark & Visualization through transformations and aggregations using SPark APIs and Spark SQL and Notebook for visualization
 
-  ## Requirements
+## Requirements
 
   For deploying the entire pipeline , below requirements must be avaiable.
   
@@ -34,5 +34,22 @@ combines sales data with data from external sources (api end points). Data trans
   - DataBase Viewer
  
 ## Getting Started
+
+### Jenkins Pipeline
+  
+  Jenkins pipeline must be deployed for building the artifacts and moving to S3. The pipleline has 5 stages:
+
+  - Initialization
+  - Checkout Source Code
+  - Maven Build
+  - Deploy Scripts to EMR Airflow
+  - Airflow for Scheduling.
+  - Deploy Scripts to S3.
+
+<img width="756" alt="image" src="https://github.com/mlbarathy/user-sales-analysis/assets/43374951/1bcfc754-c53d-40b7-a105-9dd198d67d67">
+
+
+    
+  
 
   
