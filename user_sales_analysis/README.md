@@ -11,7 +11,7 @@ combines sales data with data from external sources (api end points). Data trans
   - [Airflow DAG Deployment](#airflow-dag-deployment)
 - [Code Base](#code-base)
 - [Transformations And Aggregations](#transformation-and-aggregations)
-- [visualizations](#visualizations)
+- [Visualizations](#visualizations)
   
  
 <br>
