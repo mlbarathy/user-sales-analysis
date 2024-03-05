@@ -61,6 +61,7 @@ Once the DAG is deployed sucessfully , create a Variable (USER_SALES_ANALYSIS_SP
 
 
 
+
 ## Code Base
 
 The code base framework contains below artifacts,
